@@ -105,7 +105,7 @@ else // If the received code is usable, it is sent to the Serial Monitor here.
   if (value == 5679);
     { 
     digitalWrite(relay1, HIGH); 
-    delay (500); //und zwar für 0,5 Sekunden (500 Millisekunden).  
+    delay (500);  
     } 
   } 
   if (value == 5680);
@@ -137,10 +137,10 @@ else // If the received code is usable, it is sent to the Serial Monitor here.
     { 
     digitalWrite(relay4, HIGH); 
     delay (500); 
-    } //Programmabschnitt des I        
+    }        
   }   
 
-mySwitch.resetAvailable(); // Hier wird der Empfänger "resettet"   
+mySwitch.resetAvailable(); // "Resete" of the reciever.  
 }
 }
 
